@@ -1,0 +1,17 @@
+# compiled binaries
+dist
+
+# temporary files
+tmp
+gulp/grunt/dev/buildOptions.json
+
+#dependencies
+node_modules
+bower_components
+
+# sublime text files
+*.sublime-project
+*.sublime-workspace
+
+# mac hidden files
+.DS_Store

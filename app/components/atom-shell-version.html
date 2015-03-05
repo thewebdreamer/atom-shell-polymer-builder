@@ -1,0 +1,17 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<polymer-element name="atom-shell-version">
+	<template>
+		<p>
+			We are using io.js {{nodejsVersion}} and atom-shell {{atomShellVersion}}.
+		</p>
+		<p>
+			We are harnessing the power of Chrome and node.js for a full multiplatform desktop experience!
+		</p>
+	</template>
+	<script>
+		Polymer({
+			nodejsVersion: process.version,
+			atomShellVersion: process.versions['atom-shell']
+		});
+	</script>
+</polymer-element>
